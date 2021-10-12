@@ -1,0 +1,512 @@
+	html 
+	{
+  		box-sizing: border-box;
+	}
+	*, *:before, *:after 
+	{
+	  	box-sizing: inherit;
+	}
+	body
+	{
+  		font-family: 'KoHo', sans-serif;
+  		margin: 0;
+	}
+	.topnav 
+	{
+		overflow: hidden;
+		background: linear-gradient(rgba(168, 245, 241, 0.8), rgba(118, 160, 160, 0.5)),
+              	  url(../images/haskell_campus_building.jpg) no-repeat fixed;
+  		  background-size: cover;
+	}
+	.topnav a 
+	{
+	float: left;
+	color: #0e0000;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	}
+	.topnav a:hover
+	{
+	background-color: #ddd;
+	color: #0f153b;
+	}
+	.topnav a.active
+	{
+	background-color: #04AA6D;
+	color: white;
+	}
+	 	a
+	{
+ 		color: #22a79c;
+	}
+	a:hover
+	{
+ 		text-decoration: none;
+	}
+	.detail
+	 {
+  		max-width: 950px;
+  		margin: 0 auto;
+  		padding: 50px 50px;
+  		overflow: hidden;
+	 }
+	.hide
+	 {
+   		display: none;
+	 }
+	 header 
+	{
+  		padding-top: 50px;
+  		position: relative;
+	}
+	header h1, header h2 
+	{
+  		color: #EDF2F4;
+ 		margin: 0;
+	}
+	header
+	{
+  		background: #014b5f;
+  		color: #dddddd;
+	}
+  footer
+  {
+    
+    background:  linear-gradient(rgba(168, 245, 241, 0.8), rgba(118, 160, 160, 0.5)),
+    url(../images/haskell_campus_building.jpg) no-repeat fixed;
+    color: #030101;
+
+  }
+	.profile-img
+	{
+  		border-radius: 80%;
+	}
+	.detail img 
+	{
+  		width: 200px;
+  		height: 200px;
+	}
+	footer
+	{
+  		text-align: center;
+	}
+	.contact-info 
+	{
+ 		 padding: 2px;
+ 		 display: inline-block;
+	}
+	.work 
+	{
+  		background: #ffffff;
+	}
+	h3 ~ p 
+	{
+  		margin: 0;
+	}
+	
+    .sidebar{
+       
+        width: 250px;
+        top:170;
+        left: 0;
+        bottom: 0;
+        background: #014b5f;
+        padding-top: 50px;
+     }
+     
+     .sidebar h1{
+        display: block;
+        padding: 10px 20px;
+        color: #fff;
+        text-decoration: none;
+        font-family: "Rubik";
+        letter-spacing: 2px;
+        font-weight: 400;
+        margin: 0;
+        font-size: 25px;
+        text-transform: uppercase;
+     }
+     
+     .sidebar a{
+        display: block;
+        padding: 10px 20px;
+        color: #bbb;
+        text-decoration: none;
+        font-family: "Rubik";
+        letter-spacing: 2px;
+     }
+     
+     .sidebar a:hover{
+        color: #fff;
+        margin-left: 20px;
+        transition: 0.4s;
+     }
+     #content {
+  margin-top: 50px;
+  text-align: center;
+}
+
+section.timeline-outer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1.header {
+  font-size: 50px;
+  line-height: 70px;
+}
+/* Timeline */
+
+.timeline {
+  border-left: 8px solid #42A5F5;
+  border-bottom-right-radius: 2px;
+  border-top-right-radius: 2px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  color: rgb(255, 251, 251);
+  margin: 50px auto;
+  letter-spacing: 0.5px;
+  position: relative;
+  line-height: 1.4em;
+  padding: 20px;
+  list-style: none;
+  text-align: left;
+}
+
+.timeline h1,
+.timeline h2,
+.timeline h3 {
+  font-size: 1.4em;
+}
+
+.timeline .event {
+  border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.timeline .event:last-of-type {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .event:before {
+  left: -177.5px;
+  color: #212121;
+  content: attr(data-date);
+  text-align: right;
+  /*  font-weight: 100;*/
+  
+  font-size: 16px;
+  min-width: 120px;
+}
+
+.timeline .event:after {
+  box-shadow: 0 0 0 8px #42A5F5;
+  left: -30px;
+  background: #212121;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+  top: 5px;
+}
+
+.resume {
+    width: 800px;
+    height: auto;
+    display: flex;
+   
+  }
+  
+.resume .resume_right {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_work ul,
+  .resume .resume_right .resume_education ul {
+    padding-left: 40px;
+    overflow: hidden;
+  }
+  
+  .resume .resume_right ul li {
+    position: relative;
+  }
+  
+  .resume .resume_right ul li .date {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+  
+  .resume .resume_right ul li .info {
+    margin-bottom: 20px;
+  }
+  
+  .resume .resume_right ul li:last-child .info {
+    margin-bottom: 0;
+  }
+  
+  .resume .resume_right .resume_work ul li:before,
+  .resume .resume_right .resume_education ul li:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -25px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    border: 2px solid #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_work ul li:after,
+  .resume .resume_right .resume_education ul li:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -21px;
+    width: 2px;
+    height: 115px;
+    background: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .resume .resume_right .resume_hobby ul li {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #0bb5f4;
+    border-radius: 50%;
+    position: relative;
+    color: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul li i {
+    font-size: 30px;
+  }
+  
+  .resume .resume_right .resume_hobby ul li:before {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: -52px;
+    width: 50px;
+    height: 2px;
+    background: #0bb5f4;
+  }
+  
+  .resume .resume_right .resume_hobby ul li:last-child:before {
+    display: none;
+  }
+  
+
+
+@media (max-width: 945px) {
+  .timeline .event::before {
+    left: 2.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
+  section.lab h3.card-title {
+    padding: 5px;
+    font-size: 16px
+  }
+}
+
+@media (max-width: 768px) {
+  .timeline .event::before {
+    left: 1.5px;
+    top: 20px;
+    min-width: 0;
+    font-size: 13px;
+  }
+  .timeline .event:nth-child(1)::before,
+  .timeline .event:nth-child(3)::before,
+  .timeline .event:nth-child(5)::before {
+    top: 38px;
+  }
+  .timeline h3 {
+    font-size: 16px;
+  }
+  .timeline p {
+    padding-top: 20px;
+  }
+}
+/*——————————————
+others
+———————————————*/
+
+a.portfolio-link {
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+  
+	@media (min-width: 900px)
+	 {
+ 		 .col-narrow 
+		{
+   		 	width: 30%;
+    		 	float: left;
+  		}
+	 	.col-wide
+		{
+   	 		width: 70%;
+    			float: left;
+    			padding-left: 20px;
+  		}
+	 }
+	@media (max-width: 899px)
+	{
+  		header 
+		{
+    			text-align: center;
+  		}
+ 		.profile-img
+		 {
+    			width: 200px;
+  		  }
+	}
+    .resume .resume_right {
+        width: 520px;
+        background: #fff;
+        padding: 25px;
+      }
+      
+      .resume .resume_right .bold {
+        color: #0bb5f4;
+      }
+      
+      .resume .resume_right .resume_work ul,
+      .resume .resume_right .resume_education ul {
+        padding-left: 40px;
+        overflow: hidden;
+      }
+      
+      .resume .resume_right ul li {
+        position: relative;
+      }
+      
+      .resume .resume_right ul li .date {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 15px;
+      }
+      
+      .resume .resume_right ul li .info {
+        margin-bottom: 20px;
+      }
+      
+      .resume .resume_right ul li:last-child .info {
+        margin-bottom: 0;
+      }
+      
+      .resume .resume_right .resume_work ul li:before,
+      .resume .resume_right .resume_education ul li:before {
+        content: "";
+        position: absolute;
+        top: 5px;
+        left: -25px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        border: 2px solid #0bb5f4;
+      }
+      
+      .resume .resume_right .resume_work ul li:after,
+      .resume .resume_right .resume_education ul li:after {
+        content: "";
+        position: absolute;
+        top: 14px;
+        left: -21px;
+        width: 2px;
+        height: 115px;
+        background: #0bb5f4;
+      }
+      
+      .resume .resume_right .resume_hobby ul {
+        display: flex;
+        justify-content: space-between;
+      }
+      
+      .resume .resume_right .resume_hobby ul li {
+        width: 80px;
+        height: 80px;
+        border: 2px solid #0bb5f4;
+        border-radius: 50%;
+        position: relative;
+        color: #0bb5f4;
+      }
+      
+      .resume .resume_right .resume_hobby ul li i {
+        font-size: 30px;
+      }
+      
+      .resume .resume_right .resume_hobby ul li:before {
+        content: "";
+        position: absolute;
+        top: 40px;
+        right: -52px;
+        width: 50px;
+        height: 2px;
+        background: #0bb5f4;
+      }
+      
+      .resume .resume_right .resume_hobby ul li:last-child:before {
+        display: none;
+      }
+      .pics{
+        
+      
+
+       border-radius: 80%;
+       float: right; position: relative;
+       top:60;
+       right:30;
+      }
+      .pic{
+        
+      
+
+     float: right; position: relative;
+        top:60;
+        right:30;
+       }
+       .contact-infos
+	{
+ 		 padding: 50px;
+ 		 display: inline-block;
+	}
+  .details
+  {
+     max-width: 950px;
+     margin: 0 auto;
+     padding: 50px 50px;
+     overflow: hidden;
+  }

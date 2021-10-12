@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- Via Linkedin learning course -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+  <style>
+	html 
+	{
+  		box-sizing: border-box;
+	}
+	*, *:before, *:after 
+	{
+	  	box-sizing: inherit;
+	}
+	body
+	{
+  		font-family: 'KoHo', sans-serif;
+  		margin: 0;
+	}
+
+ 	a
+	{
+ 		color: #22a79c;
+	}
+	a:hover
+	{
+ 		text-decoration: none;
+	}
+	.detail
+	 {
+  		max-width: 950px;
+  		margin: 0 auto;
+  		padding: 50px 50px;
+  		overflow: hidden;
+	 }
+	.hide
+	 {
+   		display: none;
+	 }
+	 header 
+	{
+  		padding-top: 50px;
+  		position: relative;
+	}
+	header h1, header h2 
+	{
+  		color: #EDF2F4;
+ 		margin: 0;
+	}
+	header, footer
+	{
+  		background: #014b5f;
+  		color: #dddddd;
+	}
+	.profile-img
+	{
+  		border-radius: 80%;
+	}
+	.detail img 
+	{
+  		width: 200px;
+  		height: 200px;
+	}
+	footer
+	{
+  		text-align: center;
+	}
+	.contact-info 
+	{
+ 		 padding: 10px;
+ 		 display: inline-block;
+	}
+	.work 
+	{
+  		background: #ffffff;
+	}
+	h3 ~ p 
+	{
+  		margin: 0;
+	}
+	.job-description
+	{
+ 		 margin-bottom: 25px;
+	}
+	.job-description p:first-of-type
+	{
+  		margin-top: 0;
+	}
+	.expertise 
+	{
+  		background: #ffffff;
+	}
+	h3 ~ p 
+	{
+  		margin: 0;
+	}
+	.job-description 
+	{
+ 	 	margin-bottom: 25px;
+	}
+	.job-description p:first-of-type 
+	{
+  		margin-top: 0;
+	}
+
+	.exptertise .detail
+	{
+  		padding: 0;
+	}	
+	.education 
+	{
+		  background: linear-gradient(rgba(168, 245, 241, 0.8), rgba(118, 160, 160, 0.5)),
+              	  url(../images/haskell_campus_building.jpg) no-repeat fixed;
+  		  background-size: cover;
+	}
+	p + h3 
+	{
+  		margin-top: 30px;
+	}
+	table,
+	td 
+	{
+    		border-style: solid;
+	}
+	thead,
+	tfoot 
+	{
+    		background-color: #333;
+    		color: #fff;
+	}
+	@media (min-width: 900px)
+	 {
+ 		 .col-narrow 
+		{
+   		 	width: 30%;
+    		 	float: left;
+  		}
+	 	.col-wide
+		{
+   	 		width: 70%;
+    			float: left;
+    			padding-left: 20px;
+  		}
+	 }
+	@media (max-width: 899px)
+	{
+  		header 
+		{
+    			text-align: center;
+  		}
+ 		.profile-img
+		 {
+    			width: 200px;
+  		  }
+	}
+</style>
+</head>
+<body>
+  <header id="about"> 
+    <div class="detail">
+      <img class="profile-img col-narrow" src="images/me.JPG" alt="Yuvika Mehta">
+      <div class="col-wide">
+        <h1 style=" font-size: 60px; font-family: 'Cormorant', serif; font-weight: 400">Yuvika Mehta</h1>
+        <h2 style="font-size: 40px;font-family: 'Cormorant', serif; font-weight: 400;">Bachelor of Technology <br>Focused in Computer Science</h2>
+        <p>Experienced in resolving software issues and bugs resolved.Skilled in Java, C, C++. I am hard-working, independent and passionate about solving problems, working in a team.</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="work" class="work">
+      <div class="detail">
+        <h2 style="font-size: 40px; margin-top: 0; font-family: 'Cormorant', serif; font-weight: 400;">Work Experience</h2>
+
+	<div class="col-narrow">
+          <h3 style="margin: 0;">Sikkim Manipal Institute of Technology</h3>
+          <p>JULY 2019 - Present</p>
+        </div>
+
+        <div class="col-wide job-description">
+	  <p>Good Communication Skills, Presentation Skills, attitude towards leadership, authorisation and delegation, conflict resolution and negotiation and a very good team worker.</p>
+          <p>List of Experience: </p>
+          <ul>
+            <li>Worked as Public Relation head at different club</li>
+            <li>Understanding of W3C web standard.</li>
+            <li>Experienced in resolving software issues and bugs resolved</li>
+            <li>Contribute ideas to the various club in college</li>
+            <li>Troubleshoot and Debug Issues.</li>
+          </ul>
+          </p>
+          <p>See more at my <a href="https://www.linkedin.com/in/yuvika-mehta1509" target="_blank">Linkedin</a></p>
+        </div>
+
+        <!-- Job 2 Details -->
+        <div class="col-narrow">
+          <h3 style="margin: 0;">INDEPENDENT COURSES:</h3>
+          <p>Internshala</p>
+        </div>
+        <div class="col-wide job-description">
+          <p>An independent, dedicated, efficient person. These attributes are proved through the series of courses I have taken.</p>
+          <p>Key contributions:</p>
+          <ul>
+              <li>C&C++ for Beginners</li>
+              <li>R Programming</li>
+          </ul>
+      </div>
+    </section>
+
+    <section id="exptertise" class="exptertise">
+        <div class="detail">
+            <h2 style= "font-size: 40px; margin-top: 0; font-family: 'Cormorant', serif; font-weight: 400;">Area of Expertise and Skills</h2>
+              <div class="col-narrow">
+                <h3 style="margin: 0;">Programming Languages:</h3>
+              </div>
+              <div class="col-wide job-description">
+                <p>C,C++ Java, R Programming</p>
+              </div>
+		<div class="col-narrow">
+                <h3 style="margin: 0;">Tools used:</h3>
+              </div>
+              <div class="col-wide job-description">            
+                <p>Atom, Eclipse , visual code -- IDE</p>
+                <p>MongoDb,MySql</p>
+              </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+      <div class="detail">
+        <h2 style="font-size: 40px; margin-top: 0; font-family: 'Cormorant', serif; font-weight: 400;">Education:</h2>
+	<table>
+ 	<tr id="heading">
+ 	<td>Qualification</td> 
+ 	<td>Percentage / CGPA</td>
+ 	<td>Year</td>
+ 	</tr>
+ 	<tr>
+ 	<td>10th Board</td> 
+ 	<td>8.4 CGPA</td>
+ 	<td>2016</td>
+ 	</tr>
+ 	<tr>
+ 	<td>12th Board (Science Stream)</td> 
+ 	<td>73%</td>
+ 	<td>2018</td>
+ 	</tr>
+ 	<tr>
+ 	<td>SMIT</td>
+ 	<td>9.06 CGPA</td>
+ 	<td>2023</td> 
+ 	</table>      	
+
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="detail">
+      <h2 style="font-size: 40px; margin-top: 0; font-family: 'Cormorant', serif; font-weight: 400;"> Contact</h2>
+      <div class="contact-info">	
+        <a href="https://www.linkedin.com/in/yuvika-mehta1509">LinkedIn</a><br><br>
+        <a href="mailto:mehtahill1509@gmail.com">mehtahill1509@gmail.com</a>
+         </div>
+    </div>
+  </footer>
+</body>
+</html>
